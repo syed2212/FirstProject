@@ -45,5 +45,8 @@ describe('Example', () => {
 
     await expect(docsInput).toHaveText('Maybe later!');
   });
+  // it('should render "Learn More" and change text in the fourth slide', async () => {
+  //   await element(by.type())
+  // });
 
 });
