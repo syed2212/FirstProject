@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
-npm install
+
+brew tap wix/brew
+brew update
+brew install applesimutils
 
 # Change ios.sim.release to the detox configuration you want to run
 
