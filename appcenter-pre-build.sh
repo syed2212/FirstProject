@@ -10,4 +10,4 @@ echo "Building the project for Detox tests..."
 npx detox build -c android.emu.debug
 
 echo "Executing Detox tests..."
-npx detox test --configuration ios.sim.release --cleanup
+npx detox test --configuration android.emu.debug --cleanup
